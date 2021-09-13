@@ -1,0 +1,18 @@
+# Web dependencies
+flask
+apispec
+flask_restful
+flask_apispec
+sanic_envconfig
+
+# Other dependencies
+mmh3
+whois
+requests
+dnspython
+jellyfish
+beautifulsoup4
+
+# ML dependencies
+numpy
+pandas
