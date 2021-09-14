@@ -81,7 +81,7 @@ def enable_end_points(_app: Flask, _api):
 
     for fet, (obj, end_point) in features.items():
 
-        if fet.upper() in _app.config:
+        if _app.config.get(fet.upper(), False):
             _api.add_resource(obj, end_point)
 
 def setup_app() -> Flask:
